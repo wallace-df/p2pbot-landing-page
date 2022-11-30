@@ -363,6 +363,7 @@ button:focus,
 
 .btn-main-md:hover {
   color: #fff;
+  background: #5696f0;
 }
 
 .btn-main-md:focus {
