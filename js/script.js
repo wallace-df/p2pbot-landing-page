@@ -29,6 +29,12 @@
 
   $(document).ready(function() {
 
+    $('[data-fancybox]').fancybox({
+	width: 640,
+	height: 400,
+	type: 'iframe'
+    });
+	  
     // navbarDropdown
     if ($(window).width() < 992) {
       $('.main-nav .dropdown-toggle').on('click', function () {
